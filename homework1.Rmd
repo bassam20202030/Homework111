@@ -61,6 +61,10 @@ Luna     355
 (10 points)
 
 ```{r species-name-top5, eval=TRUE}
+seattlepets %>%
+group_by(species) %>%
+count(animal_name, sort = TRUE) %>%
+slice_max(n, n = 5)%>%arrange(species, n)
 
 ```
 
