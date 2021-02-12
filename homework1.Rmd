@@ -23,37 +23,38 @@ library(ggrepel)
 
 
 ##Exercises
-52519
+ 
+
 `1.
 
+
 (4 points)
 ```{r}
-
 ```
 Write your narrative here
-
-
+52519  pets
 
 `2.
-
 (4 points)
 
 ```{r}
-
 ```
 Write your narrative below
 
-
+variables = 7
 `3. Copy the code provided in the homework documentation and paste it here. 
 
 (4 points)
 
 ```{r}
-
+seattlepets %>%
+count(animal_name, sort = TRUE)
 ```
 Write your narrative here
-
-
+NA   483
+Lucy 439
+Charlie  387
+Luna     355
 
 `4.
 
